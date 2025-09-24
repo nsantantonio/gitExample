@@ -25,7 +25,7 @@
 * **Git vs. GitHub** 
     * **Git:** The software that runs on your computer to track changes locally.
     * **GitHub:** A website that hosts your Git projects (serves as a remote repository) in the cloud, enabling backup, sharing, and collaboration.
-    * **Analogy:** Git is like Microsoft Word (the program on your computer), and GitHub is like Google Docs (the cloud platform where you store files and collaborate).
+    * **Analogy:** Git is [very much un-] like Microsoft Word (the program on your computer), and GitHub is like Google Docs (the cloud platform where you store files and collaborate).
 
 ---
 #### The Core Workflow - Solo Researcher 
@@ -74,7 +74,7 @@
         ```sh
         git log --oneline
         ```
-6. **Dos and Donts**
+6. **DOs and DONTs**
     * DONT use git to track raw data or other large files that will only be read! Never edit your data files (use scripts to read them when you need them)! Add your data files to a `.gitignore` file in the main git directory
     * DO use multiple git projects! DONT do everything under one git repo, you will become over burdened trying to keep up...
     * DO commit often! Its a lot harder to keep up if you only commit changes every few weeks. 
@@ -143,7 +143,7 @@
     * Go to your GitHub repository in the browser. Click the **"Compare & pull request"** button.
     * A **Pull Request** is a formal request to merge your changes from one branch into another. This is the heart of collaboration where others can review your work.
     * Give it a title, click "Create pull request," and then "Merge pull request."
-    
+
 5.  **Update Your Local Machine**
     * To get the newly merged changes back to your local machine:
         ```sh
@@ -154,13 +154,14 @@
 #### Wrap-up & Resources 
 
 **Recap the Full Workflow:**
-    1.  `git pull`
-    2.  `git checkout -b <new-branch-name>`
-    3.  *Do your work...*
-    4.  `git add .`
-    5.  `git commit -m "Descriptive message"`
-    6.  `git push origin <new-branch-name>`
-    7.  Open a **Pull Request** on GitHub.
+    
+1.  `git pull`
+2.  `git checkout -b <new-branch-name>`
+3.  *Do your work...*
+4.  `git add .`
+5.  `git commit -m "Descriptive message"`
+6.  `git push origin <new-branch-name>`
+7.  Open a **Pull Request** on GitHub.
 
 **Key Command:** When in doubt, run `git status`.
 
