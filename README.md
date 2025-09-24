@@ -167,5 +167,5 @@
 
 **Resources:**
   * AI! is really good at this stuff. Ask it!
-  * You can find this tutorial at `github.com/nsantantonio/exampleGit`
-  * Here is a work in progress to show how an entire research can be completed start to finish, including data cleaning, analysis, figure generation and manuscript preparation `github.com/nsantantonio/reproducibleScience`
+  * You can find this tutorial at [github.com/nsantantonio/exampleGit](https://github.com/nsantantonio/exampleGit)
+  * Here is a work in progress to show how an entire research can be completed start to finish, including data cleaning, analysis, figure generation and manuscript preparation [github.com/nsantantonio/reproducibleScience](https://github.com/nsantantonio/reproducibleScience)
