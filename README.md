@@ -119,7 +119,7 @@
 
 ---
 
-#### Collaboration with Branches (10 minutes)
+#### Collaboration with Branches 
 
 * **The Concept:** Never* work directly on your `main` branch. For any new feature, create a separate **branch** to work in safely. The `main` branch should always be your stable, working version.
 
@@ -143,6 +143,7 @@
     * Go to your GitHub repository in the browser. Click the **"Compare & pull request"** button.
     * A **Pull Request** is a formal request to merge your changes from one branch into another. This is the heart of collaboration where others can review your work.
     * Give it a title, click "Create pull request," and then "Merge pull request."
+    
 5.  **Update Your Local Machine**
     * To get the newly merged changes back to your local machine:
         ```sh
@@ -150,9 +151,9 @@
         git pull origin main
         ```
 ---
-#### Wrap-up & Resources (5 minutes)
+#### Wrap-up & Resources 
 
-* **Recap the Full Workflow:**
+**Recap the Full Workflow:**
     1.  `git pull`
     2.  `git checkout -b <new-branch-name>`
     3.  *Do your work...*
@@ -160,8 +161,10 @@
     5.  `git commit -m "Descriptive message"`
     6.  `git push origin <new-branch-name>`
     7.  Open a **Pull Request** on GitHub.
-* **Key Command:** When in doubt, run `git status`.
-* **Resources:** 
-    AI! is really good at this stuff. Ask it!
-    You can find this tutorial at github.com/nsantantonio/exampleGit
-    Here is a work in progress to show how an entire research can be completed start to finish, including data cleaning, analysis, figure generation and manuscript preparation github.com/nsantantonio/reproducibleScience
+
+**Key Command:** When in doubt, run `git status`.
+
+**Resources:**
+  * AI! is really good at this stuff. Ask it!
+  * You can find this tutorial at `github.com/nsantantonio/exampleGit`
+  * Here is a work in progress to show how an entire research can be completed start to finish, including data cleaning, analysis, figure generation and manuscript preparation `github.com/nsantantonio/reproducibleScience`
