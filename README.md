@@ -1,4 +1,4 @@
-## Class: Reproducibility: A Crash Course in Git & GitHub
+## Reproducibility: A Crash Course in Git & GitHub
 
 **Objective:** By the end of this session, students will be able to create a local Git repository, track changes, push their project to a remote GitHub repository, and understand the basic branching workflow for collaboration.
 
@@ -62,7 +62,7 @@
     * Modify the README and add a mock script.
         ```sh
         echo "This project does some really cool stuff." >> README.md
-        echo "echo "hello World!"" > helloWorld.sh
+        echo "echo 'hello World!'" > helloWorld.sh
         ```
     * Add and commit all changes. The `.` refers to the current directory.
         ```sh
@@ -97,7 +97,7 @@
         ```
     * Then navigate back to your new project directory.
     * log into github.com
-    * Navigate to Settings, SSH and GPG keys. Then add a new SSH key.
+    * Navigate to Settings, SSH and GPG keys. Then follow the instructions to add a new SSH key.
 
 1.  **Create a Remote Repository**
     * In your web browser, go to github.com, login and click "New repository."
@@ -110,7 +110,7 @@
         git remote add origin [https://github.com/YOUR_USERNAME/myFirstGitProject.git](https://github.com/YOUR_USERNAME/myFirstGitProject.git)
         git branch -M main
         ```
-3.  **Push Your Code!** 🚀
+3.  **Push Your Code!** 
     * This command sends your commit history from your local machine up to GitHub.
         ```sh
         git push -u origin main
